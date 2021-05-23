@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sBox",
+    "path": "sprites/sBox/sBox.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oBoxParent",
-    "path": "objects/oBoxParent/oBoxParent.yy",
+    "name": "oOpBoxParents",
+    "path": "objects/oOpBoxParents/oOpBoxParents.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Box",
-    "path": "folders/Objects/Box.yy",
+    "name": "oOpBox",
+    "path": "folders/Objects/Box/oOpBox.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oOpBox",
+  "name": "oOpBox2b",
   "tags": [],
   "resourceType": "GMObject",
 }
