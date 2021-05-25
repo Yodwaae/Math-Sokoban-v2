@@ -30,7 +30,28 @@ if position_meeting(x,y-sprite_height,oNumBox) and position_meeting(x,y+sprite_h
 
 if calcul = true{
 	
-	newValue = num1 + num2;
+	if type == "+"{ // Addition	
+		newValue = num1 + num2;	
+	}
+	
+		if type == "-"{ // Soustraction	
+		newValue = num1 - num2;	
+	}
+		if type == "X"{ // Multiplication
+		newValue = num1 * num2;	
+	}
+	
+		if type == "/"{ // Division
+		newValue = num1 / num2;	
+	}
+	
+		if type == "mod"{ // Modulo
+		newValue = num1 % num2;	
+	}
+	
+		if type == "euc"{ //Division euclidienne
+		newValue = num1 div num2;
+	}
 	
 // Détruit les objets obsolètes	
 
