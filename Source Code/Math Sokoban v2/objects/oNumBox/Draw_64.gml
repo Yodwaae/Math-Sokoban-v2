@@ -4,15 +4,19 @@ if frac(value) != 0{
 	
 	// Mise sous forme de fraction 
 	
-	if frac(value) >= 0.333 and frac(value) < 0.334{
+	if (frac(value) >= 0.333 and frac(value) < 0.334) or (frac(value) >= 0.666 and frac(value) < 0.667){
 		
-		val = (value - frac(value)) * 3 + 1;
-		denom = 3;
-	}
-	else if frac(value) >= 0.666 and frac(value) < 0.667{
+		if frac(value) >= 0.333 and frac(value) < 0.334{
+		
+			val = (value - frac(value)) * 3 + 1;
+			denom = 3;
+		}
 	
-		val = (value - frac(value)) * 3 + 2;
-		denom = 3;
+		if frac(value) >= 0.666 and frac(value) < 0.667{
+	
+			val = (value - frac(value)) * 3 + 2;
+			denom = 3;
+		}
 	}
 	else{
 	
