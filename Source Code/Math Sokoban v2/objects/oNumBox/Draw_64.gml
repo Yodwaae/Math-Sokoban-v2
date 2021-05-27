@@ -3,7 +3,18 @@
 if frac(value) != 0{
 	
 	// Mise sous forme de fraction 
-	if frac(value) !=0{
+	
+	if frac(value) >= 0.333 and frac(value) < 0.334{
+		
+		val = (value - frac(value)) * 3 + 1;
+		denom = 3;
+	}
+	else if frac(value) >= 0.666 and frac(value) < 0.667{
+	
+		val = (value - frac(value)) * 3 + 2;
+		denom = 3;
+	}
+	else{
 	
 		val = value;
 		val = val * 10;
@@ -27,11 +38,6 @@ if frac(value) != 0{
 		val = val/pgcd;
 		denom = denom/pgcd;
 		
-		if val == 33 and denom = 100{
-			
-			val = 1;
-			denom = 3;
-		}
 	}
 
 	draw_set_color(c_green)
