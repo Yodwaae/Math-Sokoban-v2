@@ -32,7 +32,7 @@ if keyboard_check_pressed(ord("D")){
 	if position_meeting(x + sprite_width, y, oWall) or numVer>99 or numVer<-99 or (position_meeting(x + sprite_width,y, oBoxParent) and !position_empty(x + 2*sprite_width, y)){
 		x = x
 	}
-	else x = x + 32;	
+	else x = x + sprite_width;	
 }
 
 // Gauche (a)

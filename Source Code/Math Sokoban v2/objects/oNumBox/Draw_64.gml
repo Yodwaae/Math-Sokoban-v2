@@ -1,6 +1,47 @@
 // Affiche la valeur du bloc
 
-draw_set_color(c_green)
-draw_set_halign(fa_center)
-draw_set_valign(fa_middle)
-draw_text(x,y-4,string(value)) 
+if frac(value) != 0{
+	
+	// Mise sous forme de fraction 
+	if frac(value) !=0{
+	
+		val = value;
+		val = val * 10;
+		denom = 10;
+	
+		if frac(val) !=0{
+		
+			val = val*10;
+			denom = 100;
+			val = val - frac(val);
+		}
+	
+		for (var i = 1; i<51; i += 1){
+		
+			a = val mod i;
+			b = denom mod i;
+		
+			if a == 0 and b == 0 pgcd = i;
+		}
+	
+		val = val/pgcd;
+		denom = denom/pgcd;
+		
+		if val == 33 and denom = 100{
+			
+			val = 1;
+			denom = 3;
+		}
+	}
+
+	draw_set_color(c_green)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_text(x,y-4,string(val) + "/" + string(denom)) 
+}
+else {
+	draw_set_color(c_green)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_text(x,y-4,string(value)) 
+}
