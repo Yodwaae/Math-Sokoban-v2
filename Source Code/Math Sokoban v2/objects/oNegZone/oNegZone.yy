@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "sBox",
-    "path": "sprites/sBox/sBox.yy",
+    "name": "sHitboxZone",
+    "path": "sprites/sHitboxZone/sHitboxZone.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oBoxParent",
-    "path": "objects/oBoxParent/oBoxParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,19 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oNumBox","path":"objects/oNumBox/oNumBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"valeur","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Box",
-    "path": "folders/Objects/Box.yy",
+    "name": "oZone",
+    "path": "folders/Objects/oZone.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oNumBox",
+  "name": "oNegZone",
   "tags": [],
   "resourceType": "GMObject",
 }

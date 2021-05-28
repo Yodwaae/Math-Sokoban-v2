@@ -1,26 +1,26 @@
 // Affiche la valeur du bloc
 
-if frac(value) != 0{
+if frac(valeur) != 0{
 	
 	// Mise sous forme de fraction 
 	
-	if (frac(value) >= 0.333 and frac(value) < 0.334) or (frac(value) >= 0.666 and frac(value) < 0.667){
+	if (frac(valeur) >= 0.333 and frac(valeur) < 0.334) or (frac(valeur) >= 0.666 and frac(valeur) < 0.667) or (frac(valeur) <= -0.333 and frac(valeur) > -0.334) or (frac(valeur) <= -0.666 and frac(valeur) > -0.667){
 		
-		if frac(value) >= 0.333 and frac(value) < 0.334{
+		if (frac(valeur) >= 0.333 and frac(valeur) < 0.334) or (frac(valeur) <= -0.333 and frac(valeur) > -0.334){
 		
-			val = (value - frac(value)) * 3 + 1;
+			val = (valeur -(frac(valeur))) * 3 + 1*sign(valeur);
 			denom = 3;
 		}
 	
-		if frac(value) >= 0.666 and frac(value) < 0.667{
+		if (frac(valeur) >= 0.666 and frac(valeur) < 0.667) or (frac(valeur) <= -0.666 and frac(valeur) > -0.667){
 	
-			val = (value - frac(value)) * 3 + 2;
+			val = (valeur - frac(valeur)) * 3 + 2*sign(valeur);
 			denom = 3;
 		}
 	}
 	else{
 	
-		val = value;
+		val = valeur;
 		val = val * 10;
 		denom = 10;
 	
@@ -53,5 +53,5 @@ else {
 	draw_set_color(c_green)
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_middle)
-	draw_text(x,y-4,string(value)) 
+	draw_text(x,y-4,string(valeur)) 
 }

@@ -5,10 +5,10 @@
 if position_meeting(x-sprite_width,y,oNumBox) and position_meeting(x+sprite_width,y,oNumBox){
 	
 	box1 = instance_position(x-sprite_width,y,oNumBox);
-	num1 = box1.value;
+	num1 = box1.valeur;
 	
 	box2 = instance_position(x+sprite_width,y,oNumBox);
-	num2 = box2.value;
+	num2 = box2.valeur;
 	
 	calcul = true;
 }
@@ -18,10 +18,10 @@ if position_meeting(x-sprite_width,y,oNumBox) and position_meeting(x+sprite_widt
 if position_meeting(x,y-sprite_height,oNumBox) and position_meeting(x,y+sprite_height,oNumBox){
 	
 	box1 = instance_position(x,y-sprite_height,oNumBox);
-	num1 = box1.value;
+	num1 = box1.valeur;
 	
 	box2 = instance_position(x,y+sprite_height,oNumBox);
-	num2 = box2.value;
+	num2 = box2.valeur;
 	
 	calcul = true;
 }
@@ -62,5 +62,5 @@ if calcul = true{
 // Crée le nouveau bloc num
 
 	inst = instance_create_layer(x,y,"Instances",oNumBox)
-	with (inst) value = other.newValue;
+	with (inst) valeur = other.newValue;
 }

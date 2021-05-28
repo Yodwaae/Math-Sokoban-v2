@@ -5,7 +5,7 @@ if other.typeD == typeD {
 }
 else{
 	
-	num1 = other.value;
+	num1 = other.valeur;
 	
 	/// Procéde au calcul
 
@@ -38,7 +38,7 @@ else{
 
 	inst = instance_create_layer(x,y,"Instances",oNumBox)
 	with (inst){
-		value = other.newValue;
+		valeur = other.newValue;
 		typeD = other.typeD;
 	}
 }
