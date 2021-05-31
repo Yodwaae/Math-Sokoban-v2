@@ -21,8 +21,9 @@ else{
 		newValue = -num1;	
 	}
 	
-	if typeD == "opp"{ // Opposé
-		newValue = 1/num1;	
+	if type == "opp"{ // Opposé
+		if num1 != 0 newValue = 1/num1;	
+		else newValue =0
 	}
 	
 	if typeD == "sqrt"{ // Racine carré
@@ -40,5 +41,6 @@ else{
 	with (inst){
 		valeur = other.newValue;
 		typeD = other.typeD;
+		if valeur >= 10000 image_index = 1;
 	}
 }

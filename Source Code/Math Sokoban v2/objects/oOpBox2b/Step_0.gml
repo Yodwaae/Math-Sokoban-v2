@@ -42,7 +42,8 @@ if calcul = true{
 	}
 	
 		if type == "/"{ // Division
-		newValue = num1 / num2;	
+			if num2 !=0 newValue = num1 / num2;
+			else newValue = 10001;
 	}
 	
 		if type == "mod"{ // Modulo
@@ -60,7 +61,10 @@ if calcul = true{
 	instance_destroy(self)
 	
 // Crée le nouveau bloc num
-
+	if newValue >9999 newValue = 10001;
 	inst = instance_create_layer(x,y,"Instances",oNumBox)
-	with (inst) valeur = other.newValue;
+	with (inst){
+		valeur = other.newValue;
+		if valeur >= 10000 image_index = 1;
+	}
 }

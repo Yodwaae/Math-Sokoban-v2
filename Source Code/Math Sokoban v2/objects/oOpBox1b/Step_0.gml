@@ -53,7 +53,8 @@ if calcul = true{
 	}
 	
 		if type == "opp"{ // Opposé
-		newValue = 1/num1;	
+			if num1 != 0 newValue = 1/num1;	
+			else newValue = 0;
 	}
 	
 		if type == "sqrt"{ // Racine carré
@@ -69,5 +70,8 @@ if calcul = true{
 // Crée le nouveau bloc num
 
 	inst = instance_create_layer(x,y,"Instances",oNumBox)
-	with (inst) valeur = other.newValue;
+	with(inst){
+		valeur = other.newValue;
+		if valeur >= 10000 image_index = 1;
+	}
 }
