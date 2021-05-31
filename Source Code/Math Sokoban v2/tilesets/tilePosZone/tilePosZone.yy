@@ -1,5 +1,4 @@
 {
-  "name": "tilePosZone",
   "spriteId": {
     "name": "sPosZone",
     "path": "sprites/sPosZone/sPosZone.yy",
@@ -49,6 +48,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tilePosZone",
   "tags": [],
   "resourceType": "GMTileSet",
 }

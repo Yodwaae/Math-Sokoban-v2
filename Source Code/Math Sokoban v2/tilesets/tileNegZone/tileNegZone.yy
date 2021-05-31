@@ -1,5 +1,4 @@
 {
-  "name": "tileNegZone",
   "spriteId": {
     "name": "sNegZone",
     "path": "sprites/sNegZone/sNegZone.yy",
@@ -49,6 +48,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tileNegZone",
   "tags": [],
   "resourceType": "GMTileSet",
 }
