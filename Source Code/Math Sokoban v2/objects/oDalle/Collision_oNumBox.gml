@@ -39,6 +39,7 @@ else{
 
 	inst = instance_create_layer(x,y,"Instances",oNumBox)
 	with (inst){
+		newB = true;
 		valeur = other.newValue;
 		typeD = other.typeD;
 		if valeur >= 10000 image_index = 1;

@@ -71,6 +71,7 @@ if calcul = true{
 
 	inst = instance_create_layer(x,y,"Instances",oNumBox)
 	with(inst){
+		newB = true;
 		valeur = other.newValue;
 		if valeur >= 10000 image_index = 1;
 	}
