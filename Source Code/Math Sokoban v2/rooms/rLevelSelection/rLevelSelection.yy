@@ -22,6 +22,10 @@
             {"propertyId":{"name":"valeur","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"objectId":{"name":"oLvlSelBox","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"cible","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"objectId":{"name":"oLvlSelBox","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"value":"rLevel2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"oLvlSelBox","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":576.0,"resourceVersion":"1.0","name":"inst_41048C83","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"valeur","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"objectId":{"name":"oLvlSelBox","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"value":"8","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"cible","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"objectId":{"name":"oLvlSelBox","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"value":"rLevel3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"oLvlSelBox","path":"objects/oLvlSelBox/oLvlSelBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":480.0,"resourceVersion":"1.0","name":"inst_6A61D73D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_328F8166","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCursor","path":"objects/oCursor/oCursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":384.0,"resourceVersion":"1.0","name":"inst_4DA95AE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -33,6 +37,7 @@
   "instanceCreationOrder": [
     {"name":"inst_39EE9C28","path":"rooms/rLevelSelection/rLevelSelection.yy",},
     {"name":"inst_41048C83","path":"rooms/rLevelSelection/rLevelSelection.yy",},
+    {"name":"inst_6A61D73D","path":"rooms/rLevelSelection/rLevelSelection.yy",},
     {"name":"inst_328F8166","path":"rooms/rLevelSelection/rLevelSelection.yy",},
     {"name":"inst_4DA95AE","path":"rooms/rLevelSelection/rLevelSelection.yy",},
   ],
