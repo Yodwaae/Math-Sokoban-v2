@@ -1,3 +1,5 @@
-// Supprime la sprite du curseur
+//Initialisation du verrouillage des niveaux
 
-window_set_cursor(cr_none);
+Level1 = unlocked;
+Level2 = locked;
+Level3 = locked;
