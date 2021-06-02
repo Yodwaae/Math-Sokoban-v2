@@ -30,11 +30,11 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Box",
-    "path": "folders/Objects/Box.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oLvlSelBox",
+  "name": "oLvlSelection",
   "tags": [],
   "resourceType": "GMObject",
 }
