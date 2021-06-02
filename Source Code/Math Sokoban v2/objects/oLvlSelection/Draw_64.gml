@@ -9,6 +9,3 @@ draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 draw_text(x,y-6,string(valeur)) 
 
-if (global.LEVEL_UNLOCKED) < valeur{
-	image_alpha = 0.6;
-}
