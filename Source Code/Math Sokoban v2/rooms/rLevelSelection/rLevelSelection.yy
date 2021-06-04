@@ -14,6 +14,12 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[
+            {"propertyId":{"name":"valeur","path":"objects/oLinkLvlSelec/oLinkLvlSelec.yy",},"objectId":{"name":"oLinkLvlSelec","path":"objects/oLinkLvlSelec/oLinkLvlSelec.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"oLinkLvlSelec","path":"objects/oLinkLvlSelec/oLinkLvlSelec.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":2240.0,"resourceVersion":"1.0","name":"inst_2649634D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"valeur","path":"objects/oLinkLvlSelec/oLinkLvlSelec.yy",},"objectId":{"name":"oLinkLvlSelec","path":"objects/oLinkLvlSelec/oLinkLvlSelec.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"oLinkLvlSelec","path":"objects/oLinkLvlSelec/oLinkLvlSelec.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":2112.0,"resourceVersion":"1.0","name":"inst_40EC5192","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oCursor","path":"objects/oCursor/oCursor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":2176.0,"resourceVersion":"1.0","name":"inst_4DA95AE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"cible","path":"objects/oLvlSelection/oLvlSelection.yy",},"objectId":{"name":"oLvlSelection","path":"objects/oLvlSelection/oLvlSelection.yy",},"value":"rLevel1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -42,6 +48,8 @@
     {"name":"inst_44498916","path":"rooms/rLevelSelection/rLevelSelection.yy",},
     {"name":"inst_682ED97F","path":"rooms/rLevelSelection/rLevelSelection.yy",},
     {"name":"inst_6839B09D","path":"rooms/rLevelSelection/rLevelSelection.yy",},
+    {"name":"inst_2649634D","path":"rooms/rLevelSelection/rLevelSelection.yy",},
+    {"name":"inst_40EC5192","path":"rooms/rLevelSelection/rLevelSelection.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

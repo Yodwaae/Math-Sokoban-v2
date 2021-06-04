@@ -1,6 +1,6 @@
 // Débloque le niveau suivant
 
-switch(nextRoom){
+switch(currentRoom){
 	
 case 1 : 
 	oGame.lvl2_unlocked = true;
