@@ -3,7 +3,7 @@
 switch(valeur){
 	
 case 1 :
-	if oGame.lvl1_unlocked = true{
+	if oGame.unlocked[1] = true{
 	global.cameraX = oCamera.x;
 	global.cameraY = oCamera.y;
 	room_goto(cible);
@@ -12,7 +12,7 @@ case 1 :
 	break;
 	
 case 2 :
-	if oGame.lvl2_unlocked = true{
+	if oGame.unlocked[2] = true{
 	global.cameraX = oCamera.x;
 	global.cameraY = oCamera.y;
 	room_goto(cible);
@@ -21,7 +21,7 @@ case 2 :
 	break;
 	
 case 3 :
-	if oGame.lvl3_unlocked = true{
+	if oGame.unlocked[3]= true{
 	global.cameraX = oCamera.x;
 	global.cameraY = oCamera.y;
 	room_goto(cible);
@@ -30,7 +30,7 @@ case 3 :
 	break;
 	
 case 4 :
-	if oGame.lvl4_unlocked = true{
+	if oGame.unlocked[4] = true{
 	global.cameraX = oCamera.x;
 	global.cameraY = oCamera.y;
 	room_goto(cible);

@@ -1,22 +1,22 @@
 switch(valeur){
 	
 case 1 :
-	if oGame.lvl1_unlocked = true image_index = 0;
+	if oGame.unlocked[1] = true image_index = 0;
 	else image_index = 1;
 	break;
 	
 case 2 :
-	if oGame.lvl2_unlocked = true image_index = 0;
+	if oGame.unlocked[2] = true image_index = 0;
 	else image_index = 1;
 	break;
 	
 case 3 :
-	if oGame.lvl3_unlocked = true image_index = 0;
+	if oGame.unlocked[3] = true image_index = 0;
 	else image_index = 1;
 	break;
 	
 case 4 :
-	if oGame.lvl4_unlocked = true image_index = 0;
+	if oGame.unlocked[4] = true image_index = 0;
 	else image_index = 1;
 	break;
 }
