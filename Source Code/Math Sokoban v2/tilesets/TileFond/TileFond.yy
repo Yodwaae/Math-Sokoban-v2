@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sGround",
-    "path": "sprites/sGround/sGround.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
-  "tileWidth": 64,
-  "tileHeight": 64,
+  "tileWidth": 32,
+  "tileHeight": 32,
   "tilexoff": 0,
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
-  "spriteNoExport": true,
+  "spriteNoExport": false,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -40,7 +40,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet3",
+  "name": "TileFond",
   "tags": [],
   "resourceType": "GMTileSet",
 }
