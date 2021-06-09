@@ -1,3 +1,5 @@
+draw_set_font(fValeur)
+
 //Affiche la valeur
 
 draw_self();
