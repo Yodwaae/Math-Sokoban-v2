@@ -1,6 +1,6 @@
 //Initialisation
 
-global.cameraX = 400;
+global.cameraX = 385;
 global.cameraY = 2400;
 
 for (var i = 1; i < 50;  i +=1){

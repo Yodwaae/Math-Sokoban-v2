@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBox",
-    "path": "sprites/sBox/sBox.yy",
+    "name": "sBoxLevelSelection",
+    "path": "sprites/sBoxLevelSelection/sBoxLevelSelection.yy",
   },
   "solid": false,
   "visible": true,
