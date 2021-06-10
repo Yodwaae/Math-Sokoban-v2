@@ -47,11 +47,13 @@ if calcul = true{
 	}
 	
 		if type == "mod"{ // Modulo
-		newValue = num1 % num2;	
+			if num2 !=0 newValue = num1 % num2;
+			else newValue = 10001;
 	}
 	
 		if type == "euc"{ //Division euclidienne
-		newValue = num1 div num2;
+			if num2 !=0 newValue = num1 div num2;
+			else newValue = 10001;
 	}
 	
 // Détruit les objets obsolètes	

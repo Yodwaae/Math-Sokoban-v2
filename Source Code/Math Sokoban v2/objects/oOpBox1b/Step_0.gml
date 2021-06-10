@@ -49,7 +49,8 @@ if calcul = true{
 		newValue = sqr(num1) * num1;	
 	}
 		if type == "inv"{ // Inverse
-		newValue = -num1;	
+			if num1 = 0 newValue =0;
+			else newValue = -num1;	
 	}
 	
 		if type == "opp"{ // Opposé
