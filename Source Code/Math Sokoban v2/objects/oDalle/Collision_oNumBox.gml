@@ -27,7 +27,7 @@ else{
 		else newValue =0
 	}
 	
-	if typeD == "sqrt"{ // Racine carré
+	if typeD == "sqrt" or typeD == "^1/2"{ // Racine carré
 		newValue = sqrt(num1);	
 	}
 	

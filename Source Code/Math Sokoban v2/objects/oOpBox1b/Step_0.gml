@@ -58,7 +58,7 @@ if calcul = true{
 			else newValue = 0;
 	}
 	
-		if type == "sqrt"{ // Racine carré
+		if type == "sqrt" or type == "^1/2"{ // Racine carré
 		newValue = sqrt(num1);	
 	}
 	
