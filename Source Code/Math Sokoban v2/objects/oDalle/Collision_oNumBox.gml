@@ -7,6 +7,8 @@ else{
 	
 	num1 = other.valeur;
 	
+	deviation = false;
+	
 	/// Procéde au calcul
 
 	if typeD == "^2"{ // Carré	
@@ -28,7 +30,7 @@ else{
 	}
 	
 	if typeD == "sqrt" or typeD == "^1/2"{ // Racine carré
-		newValue = sqrt(num1);	
+		newValue = sqrt(num1);
 	}
 	
 	
@@ -44,5 +46,6 @@ else{
 		valeur = other.newValue;
 		typeD = other.typeD;
 		if valeur >= 10000 image_index = 1;
+	
 	}
 }

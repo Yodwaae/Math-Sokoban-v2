@@ -37,9 +37,11 @@ if position_meeting(x,y+sprite_height,oNumBox){
 	calcul = true;
 }
 
-/// Procéde au calcul
+// Procéde au calcul
 
 if calcul = true{
+	
+	deviation = false;
 	
 	if type == "^2"{ // Carré	
 		newValue = sqr(num1);	
@@ -60,13 +62,15 @@ if calcul = true{
 	
 		if type == "sqrt" or type == "^1/2"{ // Racine carré
 		newValue = sqrt(num1);	
-	}
+		}
+
 	
 	
 // Détruit les objets obsolètes	
 
 	instance_destroy(box1)
 	instance_destroy(self)
+
 	
 // Crée le nouveau bloc num
 
